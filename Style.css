@@ -1,0 +1,197 @@
+
+.menu .navbar ul li {
+   position: relative;
+   float: left;
+}
+
+.menu .navbar ul li a {
+   font-size: 18px;
+   padding: 20px;
+   color: #feffff;
+   display: block;
+   text-decoration: none;
+}
+
+.menu .navbar ul li a:hover {
+   color: #7270EC;
+}
+
+.header-txt h1 {
+   font-size: 50px;
+   color: #feffff;
+   text-transform: capitalize;
+}
+
+nav ul ul {
+   display: none;
+   position: absolute;
+   background-color: #333;
+}
+
+nav ul li:hover > ul {
+   display: block;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #333;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav li {
+   position: relative;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+   padding: 14px 20px;
+   display: inline-block;
+   transition: background-color 0.3s, border-color 0.3s;
+   border: 1px solid transparent;
+}
+
+nav a:hover {
+   background-color: #111;
+   border-color: #fff;
+}
+
+/* Estilos para el logo y el menú */
+.menu .navbar ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   background-color: #333;
+}
+
+.menu .navbar ul li {
+   margin: 0;
+}
+
+.menu .navbar ul li a {
+   font-size: 18px;
+   padding: 20px;
+   color: #feffff;
+   display: block;
+   text-decoration: none;
+   text-align: center;
+   height: 100%; /* Ocupa toda la altura disponible */
+   display: flex;
+   align-items: center; /* Centra verticalmente el contenido */
+   justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+/* Estilo específico para el logo */
+.menu .navbar ul li .logo img {
+   max-height: 50px; /* Ajusta la altura del logo según el tamaño de los otros elementos */
+   width: auto;
+}
+/* Contenedor que agrupa el título con fondo y el párrafo */
+.section1 {
+   margin-bottom: 40px; /* Espaciado entre secciones */
+}
+
+/* Imagen de fondo y el título */
+.section1 .title-container {
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 200px; /* Puedes ajustar la altura */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Título centrado sobre la imagen de fondo */
+.section1 .title {
+   font-size: 32px;
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   z-index: 1; /* Asegura que el título esté sobre la imagen */
+}
+
+/* Sombra sobre la imagen de fondo para mejorar legibilidad */
+.section1 .title-container::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5); /* Sombra semitransparente */
+   z-index: 0; /* La sombra está detrás del título */
+}
+
+/* Estilo para el párrafo debajo del fondo */
+.section1 p {
+   margin-top: 20px;
+   color: #555;
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: justify;
+}
+/* Estilos del footer */
+.footer {
+   background-color: #f0f0f0; /* Fondo gris claro */
+   padding: 40px 20px; /* Espaciado dentro del footer */
+   display: flex;
+   justify-content: space-between; /* Distribuye uniformemente las columnas */
+   flex-wrap: wrap; /* Asegura que los elementos se ajusten en pantallas más pequeñas */
+   text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.footer .link {
+   flex: 1; /* Permite que cada columna ocupe el mismo ancho */
+   margin: 0 20px; /* Espaciado entre columnas */
+}
+
+.footer .link h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+   color: #333;
+}
+
+.footer .link ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.footer .link ul li {
+   margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.footer .link ul li a {
+   text-decoration: none;
+   color: #555; /* Color del texto del enlace */
+   font-size: 16px;
+   transition: color 0.3s ease;
+}
+
+.footer .link ul li a:hover {
+   color: #7270EC; /* Color cuando el enlace se pasa por encima */
+}
+
+/* Estilo del texto de autor */
+.footer .link p {
+   font-size: 14px;
+   color: #333;
+   margin-top: 20px;
+}
+
+
